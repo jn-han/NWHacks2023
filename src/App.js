@@ -13,7 +13,7 @@ function App() {
 
   const client = createReactClient({
     provider: studioProvider({ 
-      apiKey: 'bbc86f89-b5c0-48fa-9be7-61e89cbd0d98'
+      apiKey: 'c892d696-b029-4fe5-b3c0-96fcf4d49238'
     })
   })
 

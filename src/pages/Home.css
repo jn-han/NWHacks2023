@@ -1,7 +1,7 @@
 .home--view {
     background-color: #0C1324;
     position: absolute;
-    top: 11.5%;
+    top: 15%;
     height: fit-content + 20cm;
     width: 96%;
     padding-bottom: 5%;
@@ -91,6 +91,30 @@ h2 {
     border-top: white solid 1px;
 }
 
+.live-channel-photos {
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    height: 20vh;
+    width: 15vw;
+    justify-content: space-around;
+    margin-right: 50%; 
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 500px;
+}
+.discover-photos {
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    height: 20vh;
+    width: 15vw;
+    justify-content: space-around;
+    margin-left: 450px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
 .selected-genres {
     margin-left: 5%;
     margin-top: 3%;
@@ -105,4 +129,30 @@ h2 {
     width: 80vw;
     margin-left: 5%;
 
+}
+
+.genres-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 240px 100px;
+    justify-content: space-between;
+}
+
+.genre-title-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+    justify-content: space-between;
+}
+
+.selected-genres-titles {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-left: 30px;
+}
+
+
+
+h3 {
+    padding: 0 25px ;
 }

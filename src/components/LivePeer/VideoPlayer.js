@@ -8,6 +8,7 @@ const VideoPlayer = (props) => {
         theme={{
             colors: {
                 accent: '#3BC68F',
+                containerBorderColor: '#3BC68F',
             }
         }}
         controls={{

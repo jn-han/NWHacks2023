@@ -1,0 +1,17 @@
+.uploader--main {
+    margin-bottom: 0%;
+    margin: 5%;
+    margin-top: 0%;
+}
+.upload--video--btn {
+    background-color: #3BC68F;
+    border-radius: 2px;
+    height: 4vh;
+    border: none;
+    font-family: "Inter", sans-serif;
+}
+
+.visit-label {
+    color: #3BC68F;
+}
+

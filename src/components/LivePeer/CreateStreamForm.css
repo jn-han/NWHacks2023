@@ -20,3 +20,8 @@
     font-family: "Inter", sans-serif;
     margin-left: 5%;
 }
+
+.highlight {
+    color: #3BC68F;
+    display: inline;
+}

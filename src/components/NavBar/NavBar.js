@@ -9,10 +9,12 @@ const NavBar = (props) => {
       <header className= "header">
         {/* <input className= "textBox" type='text'></input> */}
         {/* <img className="logo" src="hi" /> */}
+        <div className= "logo">
+        <li><Link className= "logo" to="/" title>絆</Link></li>
+        </div>
           <nav>
             <ul>
             <div className="grid-container">
-            <img className="logo" src="hi"  />
              <li><input className= "textBox" type='text'></input></li>
              <li><Link className= "Friends" to="/friends" title>Friends</Link></li>
              <li><Link className= "Following" to="/following" title>Following</Link></li>
@@ -20,10 +22,10 @@ const NavBar = (props) => {
             </ul>
          </nav>
         <div>
-          <button className= "stream">Go Live</button>
+          <Link to='/streamNow'><button className= "stream">Go Live</button></Link>
         </div>
         <div className="circular">
-          <Link to="">hello</Link>
+        <img src={props.personalSrcImg} />
         </div>
 
     {/* user profile  */}
