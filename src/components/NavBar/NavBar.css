@@ -8,25 +8,32 @@
 }
 
 .header {
+    position: fixed;
     background-color: #202A40;
     display: flex;
     /* justify-content: space-between; */
-    padding: 20px 3%;
+    padding: 10px 3%;
     width:100%;
+
 
 }
 
 nav {
-    width: 30%;
-    justify-content: flex-start;
+    /* width: 30%; */
+    background-color: red;
+    justify-content: flex-end;
+    width: 150%;
+    display: flex;
 }
 
 nav li {
     color: white;
     display: inline-block;
-    margin: 0 15%;
+    margin: 0 8% 0 15%;
     /* align-items: center; */
-    justify-content: flex-start;
+    justify-content: flex-end;
+    /* margin-right: 8%; */
+
 }
 
 nav ul {
@@ -41,13 +48,13 @@ nav .nav-link {
     text-decoration: none;
     all: initial;
     align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: flex-end;
 }
 
 .Following {
     display: flex;
     align-items: center;
-    margin: 20%;
+    margin: 20% 1% ;
     color: #F5F5F5;
     text-decoration: none;
     justify-content: flex-start;
@@ -56,15 +63,23 @@ nav .nav-link {
 }
 
 .Friends {
-    margin: 10%;
+    /* margin: 10%; */
     color: #F5F5F5;
     text-decoration: none;
     justify-content: flex-start;
     font-family: "Inter", sans-serif;
     font-weight: 150;
+    margin-right: 50px;
 }
 
-
+.textBox {
+    /* width: 170%; */
+    display: flex;
+    justify-content: flex-end;
+    /* margin-right: 15px; */
+    margin-left: 10%
+    position: absolute;
+}
 
 .circular {
     border-radius: 100%;
@@ -84,9 +99,9 @@ nav .nav-link {
     display: block;
 }
 
-input {
-    width: 40%;
+/* input {
+    width: 35%;
     height: 90%;
     justify-content:flex-start;
     border-radius: 10%;
-}
+} */

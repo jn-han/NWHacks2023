@@ -1,5 +1,23 @@
 .sidebar--whole {
     height: 100vh;
     background-color: #202A40;
-    width: 10%;
+    width: 8%;
+    height: 92%; 
+    top: 11.5%;
+    position: fixed;
+}
+
+.circular--img {
+    border-radius: 100%;
+    display: flex;
+    flex: 0 0 50px;
+    height: 50px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+    object-fit: cover;
+    /* margin-right: 10%;
+    float: right; */
+    margin-left: 20%;
 }
