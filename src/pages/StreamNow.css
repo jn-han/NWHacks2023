@@ -1,0 +1,14 @@
+.streamNow-main {
+    background-color: #0C1324;
+    position: absolute;
+    top: 11.5%;
+    height: 100%;
+    width: 96%;
+    left: 5%;
+    color: white;
+    overflow: hidden;
+}
+.streamWindow {
+    margin: 5%;
+    height: 40vh;
+}

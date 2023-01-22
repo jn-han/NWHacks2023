@@ -1,0 +1,26 @@
+.profile--panel {
+    width: 50%;
+    height: ; 
+    margin-left: 2%;
+    border-color: grey;
+    display: inline;
+}
+
+.circular-img {
+    display: inline;
+    border-radius: 100%;
+    display: flex;
+    flex: 0 0 50px;
+    height: 20vh;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 20vh;
+    object-fit: cover;
+    padding: 3%;
+    margin-left: 3%;
+ }
+
+ .nameTag {
+    display: inline;
+ }

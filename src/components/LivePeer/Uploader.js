@@ -22,13 +22,7 @@ const Uploader = () => {
     <div>
         <input type='file' onChange={(e) => setVideo(e.target.files[0])}></input>
         <button onClick={() => {
-            try {
-                console.log("start upload...");
-                createAsset();
-            } catch (error) {
-                console.log("error");
-                console.log(error);
-            }
+                createAsset?.();
         }}
             > Upload files</button>
         <p>Status: {status}</p>

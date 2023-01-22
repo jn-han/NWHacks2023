@@ -1,39 +1,60 @@
-.sidebar--whole {
+/* .sidebar--whole {
     height: 100vh;
     background-color: #202A40;
     width: 5%;
     height: 92%; 
     top: 11.5%;
     position: fixed;
+} */
+
+.sidebar--whole {
+    height: 100%;
+    width: 65px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #202A40;
+    padding-top: 60px;
 }
+
+
+
+.circular--img img {
+        width: 40%; /* takes the 100 % width of its container (.box div)*/
+        height: 40%; /* takes the 100 % height of its container (.box div)*/
+}
+
 
 .circular--img {
     border-radius: 100%;
     display: flex;
     flex: 0 0 50px;
-    height: 50px;
+    height: 55px;
     justify-content: center;
     overflow: hidden;
     position: relative;
-    width: 50px;
-    padding: 5%;
+    width: 55px;
     object-fit: cover;
-    /* margin-right: 10%;
-    float: right; */
-    margin-left: 9%;
+    padding: 5px;
+    margin-left: 5px;
+ }
+ .circular--img::before {
+    display: block;
+ }
+
+ mysideNav i {
+    height: 55px;
+    width: 55px;
+ }
+
+.mysideNav {
+    display: flex;
+    justify-content: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    display: block;
 }
 
-#mySidenav a {
-    position: absolute;
-    transition: 0.3s;
-    padding: 15px; /* 15px padding */
-  width: 100px; /* Set a specific width */
-  text-decoration: none; /* Remove underline */
-  font-size: 20px; /* Increase font size */
-  color: white; /* White text color */
-  border-radius: 0 5px 5px 0; 
-}
 
-#mySidenav a:hover {
-    left: 0;
-}

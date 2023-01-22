@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import VideoPlayer from '../components/LivePeer/VideoPlayer'
+import Genres from '../components/Genres'
 
 export const Home = () => {
   return (
@@ -32,11 +33,7 @@ export const Home = () => {
       </div> */}
       <h2><span className='title-highlights'>Discover</span> Small Communities</h2>
       <h2><span className='title-highlights'>Categories</span> You Might Like</h2>
-      <div className='group--categories'>
-        <div className='interested-titles'><h2>GAMES</h2></div>
-        <div className='interested-titles'><h2>MUSIC</h2></div>
-        <div className='interested-titles'><h2>IRL</h2></div>
-      </div>
+      <Genres></Genres>
       <div className='divider'></div>
       
 

@@ -58,6 +58,7 @@ nav Link {
     width: 50px;
     object-fit: cover;
  }
+
  .circular::before {
     display: block;
  }
@@ -66,7 +67,19 @@ nav Link {
     width: 103%;
  }
  
+ .stream {
+    justify-content:flex-end;
+    background-color: #0C1324;
+    color: white;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    margin-left: 250px;
+    width: 70px;
+ }
  
+ .stream:hover {
+    background-color:#3BC68F;
+ }
  
 
 /* nav .nav-link {

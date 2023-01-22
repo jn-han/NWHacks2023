@@ -1,23 +1,24 @@
 .friends--view {
     background-color: #0C1324;
     position: absolute;
-    top: 13%;
-    height: 87vh;
+    top: 11.5%;
+    height: fit-content;
     width: 96%;
     left: 5%;
+    
     color: white;
     overflow: hidden;
 }
 
 .friends-header * {
     display: inline;
-    margin: 5px;
+    margin: 1%;
+    
     
 }
 .friends-header {
     display: flex;
     margin: 5%;
-
 }
 
 .display--friends {
@@ -25,3 +26,19 @@
     padding: 1%;
     border-radius: 10px;
 }
+
+.live-friends-title {
+    position: relative;
+    top: -5%;
+    color: #3BC68F;
+}
+
+.live-friends-panel {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    width: 100%;
+    top: 10%;
+    position: relative;
+}
+

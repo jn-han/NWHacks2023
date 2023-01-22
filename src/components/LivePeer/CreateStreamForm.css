@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.name--text {
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 5%;
+    width: 50%;
+    font-family: "Inter", sans-serif;
+}
+
+.create--stream--btn {
+    background-color: #3BC68F;
+    border-radius: 2px;
+    height: 4vh;
+    border: none;
+    font-family: "Inter", sans-serif;
+}
+
+.streamKey {
+    font-family: "Inter", sans-serif;
+    margin-left: 5%;
+}

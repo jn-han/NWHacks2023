@@ -12,15 +12,18 @@ const NavBar = (props) => {
           <nav>
             <ul>
             <div className="grid-container">
-            <img className="logo" src="hi" />
+            <img className="logo" src="hi"  />
              <li><input className= "textBox" type='text'></input></li>
              <li><Link className= "Friends" to="/friends" title>Friends</Link></li>
              <li><Link className= "Following" to="/following" title>Following</Link></li>
             </div>
             </ul>
          </nav>
+        <div>
+          <button className= "stream">Go Live</button>
+        </div>
         <div className="circular">
-          <img src={props.personalSrcImg} />
+          <Link to="">hello</Link>
         </div>
 
     {/* user profile  */}
