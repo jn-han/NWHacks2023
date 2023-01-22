@@ -7,79 +7,45 @@
     padding: 0;
 }
 
-.header {
-    position: fixed;
+
+header {
+    margin: 0 auto;
     background-color: #202A40;
     display: flex;
-    /* justify-content: space-between; */
-    padding: 10px 3%;
-    width:100%;
-
-
+    justify-content: space-between;
+    padding: 20px 8%;
 }
 
-nav {
-    /* width: 30%; */
-    background-color: red;
-    justify-content: flex-end;
-    width: 150%;
-    display: flex;
-}
-
-nav li {
-    color: white;
-    display: inline-block;
-    margin: 0 8% 0 15%;
-    /* align-items: center; */
-    justify-content: flex-end;
-    /* margin-right: 8%; */
-
-}
 
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-nav .nav-link {
-    display: inline-block;
-    text-decoration: none;
-    all: initial;
-    align-items: flex-end;
-    justify-content: flex-end;
+    float: left;
 }
 
-.Following {
-    display: flex;
-    align-items: center;
-    margin: 20% 1% ;
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav Link {
     color: #F5F5F5;
     text-decoration: none;
-    justify-content: flex-start;
-    font-family: "Inter", sans-serif;
-    font-weight: 150;
 }
 
 .Friends {
-    /* margin: 10%; */
     color: #F5F5F5;
     text-decoration: none;
-    justify-content: flex-start;
     font-family: "Inter", sans-serif;
     font-weight: 150;
-    margin-right: 50px;
 }
 
-.textBox {
-    /* width: 170%; */
-    display: flex;
-    justify-content: flex-end;
-    /* margin-right: 15px; */
-    margin-left: 10%
-    position: absolute;
+.Following {
+    color: #F5F5F5;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 150;
 }
+
 
 .circular {
     border-radius: 100%;
@@ -91,13 +57,25 @@ nav .nav-link {
     position: relative;
     width: 50px;
     object-fit: cover;
-    /* margin-right: 10%;
-    float: right; */
-    margin-left: 20%;
-}
-.circular::before {
+ }
+ .circular::before {
     display: block;
-}
+ }
+
+ input {
+    width: 103%;
+ }
+ 
+ 
+ 
+
+/* nav .nav-link {
+    display: inline-block;
+    text-decoration: none;
+    all: initial;
+    align-items: flex-end;
+    justify-content: flex-end;
+} */
 
 /* input {
     width: 35%;

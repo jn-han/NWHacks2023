@@ -7,10 +7,15 @@ const VideoPlayer = (props) => {
         playbackId={props.id}
         theme={{
             colors: {
-                accent: '00a55f'
+                accent: '#3BC68F',
             }
         }}
-        showTitle={true}
+        controls={{
+          autohide: 3000,
+        }}
+        showLoadingSpinner={true}
+        showPipButton
+
         >
     </Player>
   )

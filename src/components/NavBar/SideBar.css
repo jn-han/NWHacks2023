@@ -1,7 +1,7 @@
 .sidebar--whole {
     height: 100vh;
     background-color: #202A40;
-    width: 8%;
+    width: 5%;
     height: 92%; 
     top: 11.5%;
     position: fixed;
@@ -16,8 +16,24 @@
     overflow: hidden;
     position: relative;
     width: 50px;
+    padding: 5%;
     object-fit: cover;
     /* margin-right: 10%;
     float: right; */
-    margin-left: 20%;
+    margin-left: 9%;
+}
+
+#mySidenav a {
+    position: absolute;
+    transition: 0.3s;
+    padding: 15px; /* 15px padding */
+  width: 100px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; 
+}
+
+#mySidenav a:hover {
+    left: 0;
 }

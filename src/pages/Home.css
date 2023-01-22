@@ -2,9 +2,107 @@
     background-color: #0C1324;
     position: absolute;
     top: 11.5%;
-    height: 90vh;
-    width: 92%;
-    left: 8%;
+    height: fit-content + 20cm;
+    width: 96%;
+    padding-bottom: 5%;
+    left: 5%;
+    color: white;
+    overflow: hidden;
+}
+
+.main-layer {
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image1 {
+    width: 50%;
+}
+
+.small-thumbnail {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.videoPlayer {
+    margin: 5%;
+    display: flex;
+    height: auto;
+    width: 50%;
+    background-color: red;
+}
+
+h2 {
+    padding: 5%;
+}
+
+.title-highlights {
+    color: #3BC68F;
+}
+
+.scrolling-wrapper {
+    background-color: #333;
+    height: 5%;
+    width: 50;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.scrolling-wrapper * {
+    display: inline-block;
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.interested-titles {
+    display: inline;
+    width: 30%;
+    height: 80%;
+    padding-left: 0%;
+    align-items: center;
+    background-color: #3BC68F;
+    border-radius: 3px;
+}
+
+
+.group--categories {
+    display: flex;
+    margin: 5%;
+    margin-top: -3%;
+    width: 80vw;
+    height: 10vh;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divider {
+    height: 2%;
+    background-color: red;
+    width: 80vw;
+    margin-top: -3%;
+    margin-left: 5%;
+    border-top: white solid 1px;
+}
+
+.selected-genres {
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    height: 30vh;
+    width: 80vw;
+    justify-content: space-around;
+}
+
+.selected-genres-titles {
+    display: flex;
+    width: 80vw;
+    margin-left: 5%;
 
 }
