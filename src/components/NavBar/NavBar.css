@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #202A40;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 20px 3%;
+    width:100%;
+
+}
+
+nav {
+    width: 30%;
+    justify-content: flex-start;
+}
+
+nav li {
+    color: white;
+    display: inline-block;
+    margin: 0 15%;
+    /* align-items: center; */
+    justify-content: flex-start;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+nav .nav-link {
+    display: inline-block;
+    text-decoration: none;
+    all: initial;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.Following {
+    display: flex;
+    align-items: center;
+    margin: 20%;
+    color: #F5F5F5;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-family: "Inter", sans-serif;
+    font-weight: 150;
+}
+
+.Friends {
+    margin: 10%;
+    color: #F5F5F5;
+    text-decoration: none;
+    justify-content: flex-start;
+    font-family: "Inter", sans-serif;
+    font-weight: 150;
+}
+
+
+
+.circular {
+    border-radius: 100%;
+    display: flex;
+    flex: 0 0 50px;
+    height: 50px;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+    object-fit: cover;
+    /* margin-right: 10%;
+    float: right; */
+    margin-left: 20%;
+}
+.circular::before {
+    display: block;
+}
+
+input {
+    width: 40%;
+    height: 90%;
+    justify-content:flex-start;
+    border-radius: 10%;
+}
