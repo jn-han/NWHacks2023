@@ -10,4 +10,6 @@ This application will be continue to be developed in another repo that will be l
 ## Figma Prototype
 
 The Figma prototype features the hi-fidelity UI design and functional prototype of kizuna:
-https://www.figma.com/proto/iqbns9pRK6kDARjia1DjD4/nwHacks-2023?page-id=16%3A3&node-id=16%3A5&viewport=375%2C264%2C0.46&scaling=scale-down&starting-point-node-id=16%3A5&show-proto-sidebar=1
+
+Link can be found<a href="https://www.figma.com/proto/iqbns9pRK6kDARjia1DjD4/nwHacks-2023?page-id=16%3A3&node-id=16%3A5&viewport=375%2C264%2C0.46&scaling=scale-down&starting-point-node-id=16%3A5&show-proto-sidebar=1"> here.</a>
+
