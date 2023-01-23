@@ -1,6 +1,8 @@
 # KIZUNA絆
 
-This project is a livestreaming web application that implements LivePeer Studio's API for video Livestream and on demand
+This project is a livestreaming web application that implements LivePeer Studio's API for video Livestream and on demand to help create stronger communities in real time. 
+
+The platform aims to increase exposure for small creators through alleviating the barriers of being a new streamer. Our project also aims to establish a more unified social ecosystem by providing users with a platform to interact on a deeper level.
 
 ## Figma Prototype
 
