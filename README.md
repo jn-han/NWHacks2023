@@ -4,6 +4,9 @@ This project is a livestreaming web application that implements LivePeer Studio'
 
 The platform aims to increase exposure for small creators through alleviating the barriers of being a new streamer. Our project also aims to establish a more unified social ecosystem by providing users with a platform to interact on a deeper level.
 
+This application will be continue to be developed in another repo that will be linked below in the future.
+
+
 ## Figma Prototype
 
 The Figma prototype features the hi-fidelity UI design and functional prototype of kizuna:
